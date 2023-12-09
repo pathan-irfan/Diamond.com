@@ -1,0 +1,223 @@
+*{
+    /* background-color: black; */
+
+}
+.darkmod{
+    width: 50px;
+    height: 30px;
+   margin-top: -2.4%;
+    margin-left: 3%;
+
+}
+#navbaar {
+    /* box-shadow: 2px 2px 2px 2px white; */
+    border: 1.7 solid white;
+    height: 8%;
+    width: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed; /* Add position: sticky to the navbar */
+    z-index: 2; /* Set a higher z-index value than the parent container */
+}
+
+
+#navbaar p:hover {
+    color: red;
+}
+
+
+
+.Link {
+    margin-top: -0%;
+    margin-left: 5%;
+    color: white;
+}
+#inli{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.input {
+    background-color: rgb(17, 17, 15);
+    box-shadow:  1px 1px 1px white;
+    border: 0.7 solid white;
+    color: rgb(233, 9, 9);
+    border-radius: 20px;
+    margin-left: 3%; 
+    width: 96%;
+    height: 30px; 
+    margin-top: 2%; 
+    flex-wrap: wrap; 
+}
+ .p1{
+    margin-top:15px;
+    font-size:14px;
+    margin-left:4px;
+    color:white;
+}
+
+
+
+#img {
+    margin-top:18%;
+    height: 42px;
+    margin-left: 17%;
+   }
+
+#btn2 {
+    margin-top: -2.6%;
+    width: 10%;
+    height: 33px;
+    margin-left: 72%;
+    background-color: rgba(232, 139, 40, 0.699);
+    border-radius: 10px;
+    border: 2px solid rgb(82, 194, 219); ;
+    
+}
+
+.serchbtn{
+    height: 36px;
+    margin-top:10px;
+    margin-left: 2px;
+}
+.btn3 {
+    width: 100%;
+    height: 30px;
+    margin-top: 0.4%;
+    margin-left: 1%;
+    background-color: rgba(232, 139, 40, 0.699);
+    border-radius: 10px;
+    border: none;
+}
+#profilediv{
+    border-radius: 50%;
+    width: 50px;
+    border: 2px solid white;
+    height: 38px;
+    margin-left: 80%;
+}
+#btn2:hover {
+    border: 2px solid red;
+}
+
+#btn:hover {
+    border: 2px solid red;
+}
+#pragraph{
+    margin-top: 0.2%;
+    border:solid black 2px ;
+    margin-left: 30%;
+    height:50vh;
+    width:500px;
+    box-shadow: 2px 2px 2px black ;
+    
+}
+#profilediv{
+    margin-top:-80%;
+    margin-left:26%
+}
+
+@media (max-width: 768px)   {
+    #inli{
+        margin-left: -5%;
+        margin-top: 2%;
+        width: 30%;
+    }
+    #pragraph{
+        height: 300px;
+        margin-top: 21%;
+        border:solid black 2px ;
+        margin-left: -80%;
+        width:300px;
+        box-shadow: 2px 2px 2px black ;
+        
+    }
+    #navbaar {
+
+        height:9%;
+        flex-direction: column;
+        /* align-items: center; */
+        position: fixed; 
+        z-index: 2; 
+    }
+    .darkmod{
+        height: 30px;
+       margin-top: 3.5%;
+        margin-left:0;
+       width:  50px;
+    }
+    
+    .p1{
+        font-size:0px;
+        color:white;
+    }
+    #navbaar p:hover {
+        color: red;
+    }
+
+    #navbaar p {
+        top: 5%;
+        margin: 2%;
+    }
+
+    #input {
+        background-color: rgb(17, 17, 15);
+
+        border: 2px solid rgb(82, 194, 219); ;
+        color:white;
+         margin-top: 4%;
+        width: 100.1%; 
+        margin-left:-330%; 
+    }
+
+   
+    .Link {
+        /* margin-top: 1%;
+        margin-left: 1.5%;
+        color: white;
+        */
+    }
+    #profilediv{
+        
+            border-radius: 50%;
+            width: 20px;
+            border: none;
+            height: 28px;
+            margin-left: 20%;
+            margin-top: -54%;
+        
+    }
+    .profile{
+        height:30px;
+        margin-left:20% ;
+        border-radius:25px;
+        margin-top: 1.1%;
+    }
+
+    #img {
+        margin-top:7%;
+        height: 40px;
+        margin-left: -57%;
+    }
+    #btn2 {
+        margin-left:-14%;
+        margin-top: 1.9%;
+        width: 15%;
+        background-color: rgb(232, 139, 40);
+        border-radius: 10px;
+        border: 2px solid rgb(82, 194, 219); ;
+
+    }
+    .serchbtn{
+    height: 36px;
+    margin-top:9px;
+    margin-left: -15px;
+}
+   
+}

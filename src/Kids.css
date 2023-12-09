@@ -1,0 +1,143 @@
+#mainDiv{
+    margin-top:5%;
+    border:2px solid black;
+    height:66vh;
+    width:"";
+
+}
+#pragrphAndImgParent{
+    display:flex;
+}
+#bigimageDiv{
+    box-shadow: 2px 2px 2px white;
+    height:350px;
+    width:300px;
+    border:2px solid black ;
+}
+#BigDivofBigImages{
+    height:350px;
+    width:300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+
+}
+.product-paragraph{
+    font-weight:800;
+    font-size:21px;
+    margin-left:8px;
+    color:gray;
+}
+#SmallImgParentDiv{
+
+    flex-wrap:wrap;
+    display:flex;
+}
+#BigImageDiv{
+    height:50px;
+    width:60px;
+    border: 2px solid rgb(82, 194, 219); ;
+
+}
+.bigImage{
+    height:50px;
+    width:60px;
+}
+.SmallImagDiv{
+    height:50px;
+    width:55px;
+    border: 2px solid rgb(82, 194, 219); ;
+
+
+}
+.SmallImage{
+    height:50px;
+    width:60px;
+}
+#By-now-button{
+    margin-top:0.4%;
+    height:40px;
+     width:130px;
+     background-color:rgba(0, 0, 255, 0.719);
+     border-radius:10px;
+     border: 2px solid rgb(82, 194, 219); ;
+
+}
+#Add-to-card-button{
+    margin-top:0.4%;
+    height:40px;
+    width:120px;
+    margin-left:3%;
+    background-color:rgba(255, 255, 0, 0.692);
+    border-radius:10px;
+    border: 2px solid rgb(82, 194, 219); ;
+
+}@media screen and (max-width: 768px) {
+    #mainDiv{
+        margin-top:24%;
+        border:2px solid black;
+        height:69vh;
+        width:"";
+    }
+    #mainDiv1{
+        margin-top:10%;
+        height:72vh;
+        width:"";
+    }
+    #pragrphAndImgParent{
+        display:flex;
+    }
+    #bigimageDiv{
+        box-shadow: 2px 2px 2px black;
+        height:350px;
+        width:300px;
+    }
+    #BigDivofBigImages{
+        height:300px;
+        width:200px;
+    }
+    .product-paragraph{
+        font-weight:800;
+        font-size:14px;
+        margin-left:8px;
+    }
+    #SmallImgParentDiv{
+        flex-wrap:wrap;
+        display:flex;
+    }
+    #BigImageDiv{
+        height:50px;
+        width:60px;
+    }
+    .bigImage{
+        height:50px;
+        width:60px;
+    }
+    .SmallImagDiv{
+        height:50px;
+        width:39px;
+    }
+    .SmallImage{
+        height:50px;
+        width:40px;
+    }
+    #By-now-button{
+        margin-top:0.4%;
+        height:30px;
+         width:100px;
+         background-color:rgba(0, 0, 255, 0.849);;
+         border-radius:10px;
+         border: 2px solid rgb(82, 194, 219); ;
+
+    }
+    #Add-to-card-button{
+            border: 2px solid rgb(82, 194, 219); ;
+
+        margin-top:1.4%;
+        height:30px;
+        width:100px;
+        margin-left:3%;
+        background-color:rgba(255, 255, 0, 0.756);
+        border-radius:10px;
+    }
+}

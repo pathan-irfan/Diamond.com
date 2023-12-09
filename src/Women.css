@@ -1,0 +1,61 @@
+/* #mainDiv{
+    margin-top:5%;
+    border:2px solid black;
+    height:66vh;
+    width:"";
+}
+#pragrphAndImgParent{
+    display:flex;
+}
+#bigimageDiv{
+    box-shadow: 2px 2px 2px black;
+    height:350px;
+    width:300px;
+    border:2px solid black ;
+}
+#BigDivofBigImages{
+    height:350px;
+    width:300px;
+}
+.product-paragraph{
+    font-weight:800;
+    font-size:21px;
+    margin-left:8px;
+}
+#SmallImgParentDiv{
+    flex-wrap:wrap;
+    display:flex;
+}
+#BigImageDiv{
+    height:50px;
+    width:60px;
+    border:2px solid black ;
+}
+.bigImage{
+    height:50px;
+    width:60px;
+}
+.SmallImagDiv{
+    height:50px;
+    width:55px;
+    border:2px solid black;
+}
+.SmallImage{
+    height:50px;
+    width:60px;
+}
+#By-now-button{
+    margin-top:0.4%;
+    height:40px;
+     width:130px;
+     background-color:blue;
+     border-radius:10px;
+}
+#Add-to-card-button{
+    margin-top:0.4%;
+    height:40px;
+    width:120px;
+    margin-left:3%;
+    background-color:yellow;
+    border-radius:10px;
+} */

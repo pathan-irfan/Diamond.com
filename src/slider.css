@@ -1,0 +1,698 @@
+
+body {
+    /* background-color: rgb(248, 243, 243); */
+  }
+
+  
+  #main {
+    border-radius:6%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    margin-top: 4%;
+    height: 100vh;
+    width: 100%;
+    overflow-x: scroll;
+    position: static;
+
+  }
+
+  
+  .wtimg {
+    height: 99%;
+    width: 100%;
+    
+  }
+  .btn:hover{
+     background-color: rgba(178, 218, 224, 0.463);;
+  }
+  
+  
+  .btn {
+    
+    border-radius: 0%;
+    background-color: rgba(178, 218, 224, 0.463);
+    width: 3%;
+    height: 50%;
+    left: 1%;
+    top: 30%;
+    z-index: 1;
+    position: absolute;
+    border:none;
+  }
+  
+  .btn1 {
+    border:none;
+    width: 3%;
+    background-color: rgba(178, 218, 224, 0.463);
+    height: 50%;
+    left: 96%;
+    top: 30%;
+    z-index: 1;
+    position: absolute;
+  }
+
+
+  @media (max-width: 768px ) {
+    #main{
+
+        margin-top: 21.5%;
+        height: 40vh;
+        width: 100%;
+        overflow-x: scroll;
+        position: static;
+        border-radius:6%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+
+        
+    }
+    .wtimg {
+        height: 100%;
+        width: 100%;
+        
+      }
+      .btn {
+        background-color: rgba(144, 223, 236, 0.532);
+        width: 8%;
+        height: 21%;
+        left: 3%;
+        top: 19%;
+        z-index: 1;
+        position: absolute;
+      }
+      .btn1 {
+        background-color: rgba(144, 223, 236, 0.532);
+        width: 8%;
+        height: 21%;
+        left: 90%;
+        top: 19%;
+        z-index: 1;
+        position: absolute;
+      }
+  }
+
+  /* here start Allsmallwatchhere////////////////////////////////////////////////////*/
+
+  .AllsmallWatch {
+    /* border: 2px solid rgb(82, 194, 219); ; */
+
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    position: relative; /* Add position: relative to the parent container */
+    z-index: 1; /* Set a higher z-index value */
+  }
+  
+  .fistWatch {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    margin: 0.5%;
+    height: 96%;
+    width: 19%;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid rgb(10, 10, 10);
+    display: inline-block;
+    position: relative;
+    z-index: 1; /* Set a higher z-index value */
+  }
+  
+  .child {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./smartWtch/rd1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s all;
+    z-index: -1; /* Set a lower z-index value to place it below the navbar */
+  }
+  
+  .fistWatch:hover .child {
+    transform: scale(1.1);
+  }
+  
+  
+
+
+  .child1 {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    position: absolute; /* Position the child element absolutely within the parent div */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./smartWtch/rd2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s all;
+    z-index: -1; /* Set a lower z-index value to place it below the navbar */
+
+  }
+  
+  .fistWatch:hover .child1 { /* Change the selector to target the child element when the parent is hovered */
+    transform: scale(1.1);
+  }
+
+  .child2 {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    position: absolute; /* Position the child element absolutely within the parent div */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./smartWtch/rd3.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s all;
+    z-index: -1; /* Set a lower z-index value to place it below the navbar */
+
+  }
+  
+  .fistWatch:hover .child2 { /* Change the selector to target the child element when the parent is hovered */
+    transform: scale(1.1);
+  }
+
+  .child3 {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    position: absolute; /* Position the child element absolutely within the parent div */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./smartWtch/rx.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s all;
+    z-index: -1; /* Set a lower z-index value to place it below the navbar */
+
+  }
+  
+  .fistWatch:hover .child3 { /* Change the selector to target the child element when the parent is hovered */
+    transform: scale(1.1);
+  }
+  
+  .child4 {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+  border: 0.7 solid white;
+
+    position: absolute; /* Position the child element absolutely within the parent div */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./smartWtch/rx1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s all;
+    z-index: -1; /* Set a lower z-index value to place it below the navbar */
+
+  }
+  
+  .fistWatch:hover .child4{ /* Change the selector to target the child element when the parent is hovered */
+    transform: scale(1.1);
+  }
+
+  .child5 {
+    border-radius:10%;
+    box-shadow: 2px 2px 2px 2px white;
+    border: 0.7 solid white;
+    position: absolute; /* Position the child element absolutely within the parent div */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./smartWtch/rx2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s all;
+    z-index: -1; /* Set a lower z-index value to place it below the navbar */
+
+  }
+  
+  .fistWatch:hover .child5{ 
+    transform: scale(1.1);
+  }
+  @media screen and (max-width: 768px) {
+    .AllsmallWatch {
+      flex-wrap: wrap;
+      
+    }
+  
+    .fistWatch {
+
+      width: 100%;
+    }
+    .fistWatch:hover .child1{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child2{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child3{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child4{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child5{ 
+      transform: scale(1.1);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .fistWatch {
+
+      height: 50%;
+      margin: 2%;
+    }
+    .fistWatch:hover .child{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child2{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child3{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child4{ 
+      transform: scale(1.1);
+    }
+    .fistWatch:hover .child5{ 
+      transform: scale(1.1);
+    }
+  }
+
+/* //////////////////////////////////////////Scroll Slider ///////////////////////////////////////////////////////// */
+#scrollSlider {
+  margin-top: 2%;
+  height: 350px;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  transition: 1s all;
+
+}
+
+.scrollchild {
+  /* border: 2px solid rgb(82, 194, 219); ; */
+
+  border-radius: 10%;
+  height: 95%;
+  width: 19%;
+  display: inline-block;
+  background-size: cover;
+  transition: 1s all;
+  box-shadow: 2px 2px 2px 2px white;
+  border: 0.7 solid white;
+
+}
+
+.scrollchild:hover {
+  transform: scale(1.1);
+}
+
+.child-one {
+  background-image: url("./smartWtch/sb1.webp");
+}
+
+.child-one2 {
+  background-image: url("./smartWtch/ssl1.webp");
+}.child-one3 {
+  background-image: url("./smartWtch/sm1.webp");
+}.child-one4 {
+  background-image: url("./smartWtch/sy1.webp");
+}.child-one5 {
+  background-image: url("./smartWtch/so1.webp");
+}.child-one6 {
+  background-image: url("./smartWtch/syy1.jpg");
+}.child-one7 {
+  background-image: url("./smartWtch/sz1.webp");
+}.child-one8 {
+  background-image: url("./smartWtch/sx1.webp");
+}.child-one9 {
+  background-image: url("./smartWtch/sg1.webp");
+}
+
+@media (max-width:768px){
+
+  #scrollSlider {
+    margin-bottom: -10;
+    margin-top: 270%;
+    height: 370px;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    transition: 1s all;
+  
+  }
+
+  .scrollchild {
+    box-shadow: 2px 2px 2px 2px white;
+  border: 0.7 solid white;
+     
+    border-radius: 10%;
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    background-size: cover;
+    transition: 1s all;
+  }
+
+
+
+  .scrollchild:hover {
+    transform: scale(1.1);
+  }
+  .child-one {
+    background-image: url("./smartWtch/wt3.png");
+  }
+  .child-one2 {
+    background-image: url("./pngimages/p7.png");
+  }.child-one3 {
+    background-image: url("./pngimages/p9.webp");
+  }.child-one4 {
+    background-image: url("./pngimages/p13.webp");
+  }.child-one5 {
+    background-image: url("./pngimages/p16.png");
+  }.child-one6 {
+    background-image: url("./pngimages/p2.webp");
+  }.child-one7 {
+    background-image: url("./pngimages/p15.webp");
+  }.child-one8 {
+    background-image: url("./pngimages/p3.webp");
+  }.child-one9 {
+    background-image: url("./pngimages/p5.webp");
+  }.child-one10 {
+    background-image: url("./pngimages/p6.webp");
+  }.child-one11 {
+    background-image: url("./pngimages/p1.webp");
+  }.child-one12 {
+    background-image: url("./pngimages/p8.png");
+  }.child-one13 {
+    background-image: url("./pngimages/p10.webp");
+  }.child-one14 {
+    background-image: url("./pngimages/p11.png");
+  }.child-one15 {
+    background-image: url("./pngimages/p14.webp");
+  }.child-one16 {
+    background-image: url("./pngimages/p17.webp");
+  }
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+#thirdWatchdiv {
+  display: flex;
+  margin-top: 2%;
+
+
+}
+
+.thirdchild {
+  height: 350px;
+  width: 300px;
+
+}
+
+.thirdchild:hover {
+}
+
+.thardimg {
+  border-radius:10%;
+
+  height: 80%;
+  width: 100%;
+  border: 1px solid white;
+  box-shadow: 2px 20px 20px black;
+}
+
+.pra1 {
+  padding-left: 3%;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  font-family: Arial;
+  color: red;
+}
+
+.pra {
+  color: rgb(217, 167, 167);
+  padding-left: 3%;
+  font-family: Arial;
+  margin-top: 1%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #thirdWatchdiv {
+    margin-top: 10%;
+    height: 50%;
+    flex-wrap: wrap;
+
+
+  }
+  
+
+  .thirdchild {
+
+    height: 52%;
+    width: 49%;
+  }
+  .pra1 {
+    padding-left: 2%;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0;
+    font-family: Arial;
+    color: red;
+  }
+  .pra {
+    padding-left: 2%;
+    margin-top: 1.8%;
+  }
+  .thardimg {
+    margin: 2%;
+
+    border: 1px solid black;
+    box-shadow: 2px 20px 20px black;
+    height: 150px;
+    width: 100%;
+    /* height: 100%;
+    width: 100%; */
+  }
+  
+}
+/* ///////////////////////////////////////////////////////////////////*/
+#thirdWatchdiv1{
+
+  display: flex;
+  margin-top: 2%;
+}
+
+.thirdchild1 {
+  height: 350px;
+  width: 300px;
+}
+
+.thirdchild1:hover {
+}
+
+.thardimg1 {
+  border: 1px solid black;
+  box-shadow: 2px 20px 20px black;
+  border-radius:10%;
+
+  height: 80%;
+  width: 100%;
+}
+
+.pra11 {
+  padding-left: 3%;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  font-family: Arial;
+  color: red;
+}
+
+.pra12 {
+  color: gray;
+  padding-left: 3%;
+  font-family: Arial;
+  margin-top: 1%;
+}
+/* respomsive//////////////////// */
+@media (max-width: 768px) {
+  #thirdWatchdiv1 {
+    margin-top: 6%;
+    height: 50%;
+    flex-wrap: wrap;
+
+  }
+  
+
+  .thirdchild1 {
+
+    height: 50%;
+    width: 49%;
+  }
+  .pra11 {
+    padding-left: 2%;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0;
+    font-family: Arial;
+    color: red;
+  }
+  .pra12 {
+    padding-left: 2%;
+    margin-top: 1.8%;
+  }
+  .thardimg1 {
+    border: 1px solid black;
+    box-shadow: 2px 20px 20px black;
+   margin: 2%;
+    height: 150px;
+    width: 100%;
+    /* height: auto;
+    width: 100%; */
+  }
+  
+}
+/* //////////////////////////////////////footer here start /////////////////////////////////////////////////////// */
+  #footer{
+    box-shadow: 2px 2px 2px 2px white;
+    border: 1.7 solid white;
+    margin-top: 2%;
+     background-color: black;
+    height: 70vh;
+    width: auto;
+    /* background: linear-gradient(45deg, rgba(0, 94, 255, 0.813), rgba(54, 221, 129, 0.854)); */
+  }
+  .fa-brands{
+
+    color: aliceblue;
+    font-size: 30px;
+    margin: 4%;
+    margin-top: 5%;
+  }
+  #icondiv{
+    margin-left: 13%;
+    height: 20px;
+    width: 200px;
+  }
+.contactUS{
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 15%;
+
+}
+#contact{
+  display: flex;
+
+}
+.city{
+  display: flex;
+  margin-left: 32%;
+}
+.city1{
+  margin-left:15%;
+}
+.city2{
+  margin-left:19.5%;
+}
+
+.c1{
+  color: white;
+  list-style: none;
+  font-size: 17px;
+  margin: 0.5%;
+}
+.c2{
+  color: white;
+  list-style: none;
+  font-size: 17px;
+  margin: 0.5%;
+}
+
+  @media (max-width :768px){
+    #footer{
+      width: auto;
+      height: 50vh;
+      background-color: black;
+      display: flex;
+    }
+
+    .fa-brands{
+      color: aliceblue;
+      font-size: 15px;
+      margin: 3%;
+    }
+    #icondiv{
+      margin-top: 14%;
+      margin-left: -40%;
+      height: 40px;
+      width: 250px;
+    }
+  .contactUS{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 24%;
+  
+  }
+  #contact{
+    display: flex;
+  
+  }
+  .city{
+    margin-top:30%;
+
+    display: flex;
+    margin-left: -47%;
+  }
+  .city1{
+    margin-top: 2%;
+    margin-left:5%;
+  }
+  .city2{
+    margin-top: 2%;
+
+    margin-left:-5%;
+  }
+  
+  .c1{
+    color: white;
+    list-style: none;
+    font-size: 12px;
+    margin: 3%;
+  }
+  .c2{
+    color: white;
+    list-style: none;
+    font-size: 12px;
+    margin: 3%;
+  }
+  
+  }

@@ -1,0 +1,36 @@
+#longindiv{
+    margin-top: 10%;
+    height:450px;
+    width:25%;
+    border: 2px solid gray ;
+    box-shadow: 2px 2px 2px rgb(19, 20, 20); ;;   
+}
+.towbtn{
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+    height: 42px;
+    width: 350px;
+    background-color: rgba(0, 0, 255, 0.573);
+}
+
+@media (max-width:768px){
+
+    #longindiv{
+        box-shadow: 2px 2px 2px black;
+
+        margin-top: 30%;
+        height:450px;
+        width:98%;
+    
+    }
+    .towbtn{
+        border-radius: 10px;
+        margin-top: 5%;
+        height: 42px;
+        width: 330px;
+        background-color: rgba(0, 0, 255, 0.573);
+    }
+
+}

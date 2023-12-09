@@ -1,0 +1,51 @@
+#pagelogin{
+box-shadow: 2px 2px 2px  black;    
+margin-top: 10%;
+height:380px;
+width: 25%;
+border: 2px solid gray ;
+box-shadow: 2px 2px 2px rgb(19, 20, 20); ;;
+}
+.input11{
+    border: 2px solid gray ;
+    box-shadow: 2px 2px 2px rgb(19, 20, 20); ;;
+    color: gray;
+    border-radius: 10px;
+    margin: 2%;
+    height: 30px;
+    width: 350px;
+}
+.logbtn{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 4%;
+    height: 42px;
+    width: 350px;
+    background-color: rgba(0, 0, 255, 0.573);
+}
+@media(max-width:768px){
+    #pagelogin{
+        box-shadow: 2px 2px 2px  black;    
+        margin-top: 30%;
+        height:380px;
+        width: 98%;
+        
+        
+        }
+        .input11{
+            border-radius: 10px;
+            margin: 2%;
+            height: 30px;
+            width: 330px;
+        }
+        .logbtn{
+            border-radius: 10px;
+            margin-top: 4%;
+            height: 42px;
+            width: 350px;
+            background-color: rgba(0, 0, 255, 0.573);
+        }
+
+
+}
